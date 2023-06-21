@@ -3,6 +3,7 @@ import { UIArticle } from "../factory/articleUI.js";
 
 export default async() => {
 
+
     const articlesContainer = document.getElementById('articles-container');
 
     const articles = await apiService.fetchArticlesFromDB() 
