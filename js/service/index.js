@@ -4,7 +4,7 @@ export default {
     async fetchArticlesFromDB(){
 
         const articles =  await(await fetch('database.json')).json()
-
+        console.log("await", articles)
         return articles
     }
 
