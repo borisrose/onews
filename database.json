@@ -1,0 +1,115 @@
+[
+    
+    {
+        "tag":"news",
+        "title":"Lorem ipsum dolor sit amet",
+        "author": {
+
+            "name": "John Marchill",
+            "photo":"https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_1280.jpg"
+
+        },
+        "date": "le 21 Juillet 2019",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque suscipit nibh quis porttitor. Voilà, je tenais à le dire."
+
+    },
+      
+    {
+        "tag":"team",
+        "title":"Le pair programming pour les n00bs",
+        "author": {
+            "name": "Paul Darson",
+            "photo": "https://cdn.pixabay.com/photo/2017/08/01/01/33/beanie-2562646_1280.jpg"
+
+        },
+        "date": "le 2 Août 2019",
+        "content": "Le pair programming pour les dévs, c'est un peu comme certains fromages : c'est mieux à deux."
+
+
+
+
+    },
+      
+    {
+        "tag":"work",
+        "title":"Pourquoi j'aime JS",
+        "author": {
+            "name": "Bruce Ékoute",
+            "photo": "https://cdn.pixabay.com/photo/2016/03/24/09/10/man-1276384_1280.jpg"
+        },
+        "date": "le 7 Août 2019",
+        "content": "JavaScript est un langage très particulier, c'est indéniable. Je vous propose de faire le tour de toutes ces petites choses simples qui lui donnent une saveur si unique."
+
+    },
+    {
+        "tag":"team",
+        "title":"La situation de scribe",
+        "author":{
+
+            "name": "Otis",
+            "photo": "https://cdn.pixabay.com/photo/2014/09/21/17/56/mountaineering-455338_1280.jpg"
+        },
+        "date": "le 5 Septembre 2019",
+        "content": "Mais, vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd'hui avec vous, je dirais que c'est d'abord des rencontres, des gens qui m'ont tendu la main, peut-être à un moment où je ne pouvais pas, où j'étais seul chez moi. Et c'est assez curieux de se dire que les hasards, les rencontres forgent une destinée..."
+
+    },
+  
+    {
+        "tag":"work",
+        "title":"Le travail : pourquoi ce n'est jamais naturel ?",
+        "author": {
+
+            "name": "Trouveur d'Éperon de Wyverne",
+            "photo":"https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551_1280.jpg"
+
+        },
+        "date": "le 6 Septembre 2019",
+        "content": "Le terme 'travail' vient du latin 'trepalium' qui signifie 'torture'. Voilà, je vous laisse avec ça."
+
+
+    },
+      
+    {
+        "tag":"news",
+        "title":"Les chats augmentent la longévité",
+        "author":{
+            "name":"Rincevent",
+            "photo": "https://cdn.pixabay.com/photo/2016/11/29/01/34/man-1866572_1280.jpg"
+        }, 
+        "date": "le 27 Septembre 2019",
+        "content": "Jusqu'à un certain nombre. Au delà de 28 chats, les scientifiques semblent quelque peu sceptiques. Surtout sur l'aspect budgétaire..."
+
+    }
+      
+    
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

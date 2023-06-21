@@ -1,0 +1,387 @@
+:root {
+
+    /*declaration de variables ici rien n'est utilisé on déclare simplement*/
+    --span-gray-color: rgba(128, 128, 128, 0.5);
+    --article-link:#007bff ;
+    --article-link-onhover:#0056b3;
+    --font-header-bgcolor:#f9f9f9;
+    --article-border-color:#eaeaea;
+    --work-bgcolor:#0766F0;
+    --team-bgcolor:#DC5E53;
+    --news-bgcolor:#98DC62;
+
+}
+
+body {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.left-container {
+
+
+    background-image: url('../images/nicole.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /*
+    opacity: 0;
+    transition: opacity 2s;
+    */
+
+}
+
+/* 
+.left-container:hover {
+
+    transition: opacity 2s;
+    opacity: 1;
+    transition-delay: 5s;
+} */
+
+
+#left-container__footer nav ul {
+
+    color: rgba(21, 21, 21, 0.9);
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+    width: 100%;
+    
+}
+
+#left-container__footer nav ul li {
+    margin: 0 3%;
+  
+    color: white;
+    padding: 10px 30px;
+}
+
+
+#left-container__footer nav ul li a {
+
+    transition: all 500ms ease-in-out ;
+}
+
+#left-container__footer nav ul li a:hover {
+
+    /*utilisation de la variable  --span-gray-color */
+    color: var(--span-gray-color);
+    text-decoration:underline;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+.main-header-container {
+
+    display: flex;
+    width: 50%;
+    margin: 20px;
+  
+
+}
+
+.main-header-container img {
+
+    width: 10%;
+ 
+    align-self: flex-start;
+    margin-right: 5%;
+   
+
+   
+}
+
+.latest-news-sumup-container {
+
+ 
+  
+    background-color: rgba(147, 147, 147, 0.3);
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    width: 90%;
+    align-self: center;
+    margin: auto;
+
+
+
+
+
+
+}
+
+
+
+
+.latest-news-sumup-container h2 {
+
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.latest-news-sumup-container span {
+
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.8;
+    
+    
+}
+
+
+
+.latest-news-sumup-container p{
+
+    width: 60%;
+    opacity: 0.8;
+    text-align: justify;
+    text-align-last: right;
+    line-height: 30px;
+
+  
+
+}
+
+.header__logo-text-container {
+
+
+    color: white;
+    font-size: 30px;
+    width: 50%;
+
+}
+
+.right-container {
+
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.right-container header:first-child {
+
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: var(--font-header-bgcolor);
+
+}
+
+
+#articles-container {
+
+   
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    overflow-y: scroll;
+    height: 90%;
+
+   
+}
+
+
+
+
+/*---------------------------------- JS ARTICLE*/
+/*---------------------------------- JS ARTICLE*/
+/*---------------------------------- JS ARTICLE*/
+/*---------------------------------- JS ARTICLE*/
+/*---------------------------------- JS ARTICLE*/
+
+.article {
+
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    border-top: 1px var(--article-border-color) solid;
+    border-bottom: 0px solid white;
+    padding: 0 20px;
+    justify-content: flex-start;
+  
+
+}
+
+.article header  {
+
+    height: 20%;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+.article:nth-of-type(2n){
+    border-left: 0px solid white;
+    border-left: 1px var(--article-border-color) solid;
+
+}
+
+.article-span-container {
+
+  
+    height: 15%;
+    align-items: center;
+    display: flex;
+    justify-content:flex-start;
+ 
+
+   
+
+}
+
+.article-span-container > span:first-child {
+ 
+
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+  
+
+
+
+    
+ 
+}
+
+
+.article__span--news {
+    background-color: var(--news-bgcolor);
+    
+}
+
+
+.article__span--work {
+    background-color: var(--work-bgcolor);
+}
+
+.article__span--team {
+    background-color: var(--team-bgcolor);
+}
+
+
+
+.article-name {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.article__author-and-date-container {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    height: 20%;
+
+
+}
+
+
+
+
+.article__author-image-container {
+    display: flex;
+    border: 25px;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+  
+    border-radius: 25px;
+    margin-right: 2%;
+    
+}
+
+
+
+
+
+.article__author-image-container img {
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+ 
+
+}
+
+
+.article__span {
+
+    font-weight: bold;
+    margin-right: 2%;
+    width: 40%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.article__span--opacity-down {
+
+    color: var(--span-gray-color);
+    font-weight: 500;
+
+}
+
+
+.article__sumup-container {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+ 
+}
+
+.article__sumup-container p:first-of-type {
+
+    margin-bottom: 5%;
+}
+
+
+.article__sumup-container > a {
+
+    color: var(--article-link);
+    align-self: flex-start;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+
+
+}
+
+.article__sumup-container a:hover {
+
+    
+        text-decoration: underline;
+        color: var(--article-link-onhover);
+      
+
+}
